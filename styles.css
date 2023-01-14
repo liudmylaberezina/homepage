@@ -45,7 +45,7 @@ body {
 
 .resume__block {
   border-bottom: 3px solid var(--border-color);
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   margin-bottom: 15px;
 }
 
@@ -55,12 +55,9 @@ body {
     flex-direction: column;
   }
 
-  .contact_info_container {
-    align-items: center;
-  }
-
-  .contact-info__block:not(:last-child) {
-    margin-bottom: 20px;
+  .contact-container {
+    margin-top: -22%;
+    position: relative;
   }
 
   .experiences {
@@ -100,7 +97,7 @@ body {
   color: var(--secondary-text-color);
   text-decoration: none;
   display: flex;
-  justify-content: start;
+  justify-content: flex-end;
 }
 
 .contact-info__item:not(:last-child) {
@@ -127,13 +124,26 @@ body {
   vertical-align: text-bottom;
 }
 
+.my-descr,
+.skills,
+.work-duties-list,
+.experiences__company-project-responsibilities {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 525px;
+  padding: 5px 0 0 15px;
+  margin-left: 30px;
+}
+
 .contact-info__avatar {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
+  width: 210px;
+  height: 250px;
   border: 3px solid;
   border-color: var(--text-decoration-color);
+  position: absolute;
 }
 
 .social-links {
@@ -190,7 +200,6 @@ body {
 .skills__header {
   color: var(--secondary-text-color);
   text-align: center;
-  margin-bottom: 15px;
 }
 
 .skills__text {
@@ -207,7 +216,6 @@ body {
 .experiences__header {
   color: var(--secondary-text-color);
   text-align: left;
-  margin-bottom: 20px;
 }
 
 .experiences__company-header-durability {
@@ -222,12 +230,13 @@ body {
   text-decoration-color: var(--text-decoration-color);
   text-decoration-line: underline;
   text-align: left;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .experiences__company-project {
   margin-left: 15px;
   margin-bottom: 25px;
+  margin-top: 15px;
 }
 
 .experiences__company-project-role {
