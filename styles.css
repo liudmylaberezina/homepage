@@ -45,7 +45,11 @@ body {
 
 .resume__block {
   border-bottom: 3px solid var(--border-color);
+<<<<<<< HEAD
   padding-bottom: 30px;
+=======
+  padding-bottom: 15px;
+>>>>>>> 5bc9437725c95fed99fcc16500938940d29fc050
   margin-bottom: 15px;
 }
 
@@ -55,12 +59,18 @@ body {
     flex-direction: column;
   }
 
+<<<<<<< HEAD
   .contact_info_container {
     align-items: center;
   }
 
   .contact-info__block:not(:last-child) {
     margin-bottom: 20px;
+=======
+  .contact-container {
+    margin-top: -22%;
+    position: relative;
+>>>>>>> 5bc9437725c95fed99fcc16500938940d29fc050
   }
 
   .experiences {
@@ -100,7 +110,11 @@ body {
   color: var(--secondary-text-color);
   text-decoration: none;
   display: flex;
+<<<<<<< HEAD
   justify-content: start;
+=======
+  justify-content: flex-end;
+>>>>>>> 5bc9437725c95fed99fcc16500938940d29fc050
 }
 
 .contact-info__item:not(:last-child) {
@@ -118,11 +132,19 @@ body {
   fill: var(--icon-color);
 }
 
+<<<<<<< HEAD
+=======
+.contact-info__item-icon-wrapper {
+  height: 1.1428rem;
+  vertical-align: text-bottom;
+}
+>>>>>>> 5bc9437725c95fed99fcc16500938940d29fc050
 .contact-info__item-icon {
   height: 1.1428rem;
   vertical-align: text-bottom;
 }
 
+<<<<<<< HEAD
 .contact-info__avatar {
   border-radius: 50%;
   width: 100px;
@@ -130,6 +152,52 @@ body {
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
+=======
+.my-descr,
+.skills,
+.work-duties-list,
+.experiences__company-project-responsibilities {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 525px;
+  padding: 5px 0 0 15px;
+  margin-left: 30px;
+}
+
+.contact-info__avatar {
+  width: 210px;
+  height: 250px;
+  border: 3px solid;
+  border-color: var(--text-decoration-color);
+  position: absolute;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.social-icon {
+  height: 18px;
+  width: 18px;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 16px;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+>>>>>>> 5bc9437725c95fed99fcc16500938940d29fc050
 }
 
 /* Intro and skills styles */
@@ -162,7 +230,10 @@ body {
 .skills__header {
   color: var(--secondary-text-color);
   text-align: center;
+<<<<<<< HEAD
   margin-bottom: 15px;
+=======
+>>>>>>> 5bc9437725c95fed99fcc16500938940d29fc050
 }
 
 .skills__text {
@@ -179,7 +250,10 @@ body {
 .experiences__header {
   color: var(--secondary-text-color);
   text-align: left;
+<<<<<<< HEAD
   margin-bottom: 20px;
+=======
+>>>>>>> 5bc9437725c95fed99fcc16500938940d29fc050
 }
 
 .experiences__company-header-durability {
@@ -194,12 +268,20 @@ body {
   text-decoration-color: var(--text-decoration-color);
   text-decoration-line: underline;
   text-align: left;
+<<<<<<< HEAD
   margin-bottom: 20px;
+=======
+  margin-top: 20px;
+>>>>>>> 5bc9437725c95fed99fcc16500938940d29fc050
 }
 
 .experiences__company-project {
   margin-left: 15px;
   margin-bottom: 25px;
+<<<<<<< HEAD
+=======
+  margin-top: 15px;
+>>>>>>> 5bc9437725c95fed99fcc16500938940d29fc050
 }
 
 .experiences__company-project-role {
